@@ -6,7 +6,7 @@ class Curso(private val nombre: String, private val codigo: String) {
     }
 
     fun mostrarEstudiantes() {
-        println("Estudiantes: $nombre")
+        println("Estudiantes de $nombre ($codigo)")
         estudiantes.forEach { println("- ${it.nombre} (DNI: ${it.dni})") }
     }
 }
