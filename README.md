@@ -50,3 +50,7 @@ Al pasar estos estudiantes por el método `agregarAlumno()` meterá en una lista
 
 ```kotlin
 ListaCurso: MutableList = ("Marta", "Manuel", "Alberto")
+````
+
+## d) Significado del método inscribirse()
+El método `inscribirse()` consiste en tomar a un estudiante y añadirlo a un curso mediante el código del mismo. Haciendo así que se pueda acceder al curso desde un estudiante.
