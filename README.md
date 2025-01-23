@@ -52,7 +52,17 @@ Al pasar estos estudiantes por el método `agregarAlumno()` meterá en una lista
 ListaCurso: MutableList = ("Marta", "Manuel", "Alberto")
 ````
 
----
+___
 
 ## d) Significado del método inscribirse()
 El método `inscribirse()` consiste en tomar a un estudiante y añadirlo a un curso mediante el código del mismo. Haciendo así que se pueda acceder al curso desde un estudiante.
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+# 2. Generación de código a partir del diagrama. 
+
+## a) Crear clases
+
+## b) Crear relaciones
+
+## c) Crear main (para probar el sistema).
