@@ -1,3 +1,5 @@
+![Diagrama UML](/UntitledDiagram.png)
+
 # 1. Interpreta el significado del diagrama de clases.
 
 ## a) Relación entre las clases. Significado, tipo, multiplicidad.
@@ -52,7 +54,23 @@ Al pasar estos estudiantes por el método `agregarAlumno()` meterá en una lista
 ListaCurso: MutableList = ("Marta", "Manuel", "Alberto")
 ````
 
----
+___
 
 ## d) Significado del método inscribirse()
 El método `inscribirse()` consiste en tomar a un estudiante y añadirlo a un curso mediante el código del mismo. Haciendo así que se pueda acceder al curso desde un estudiante.
+
+---
+---
+
+# 2. Generación de código a partir del diagrama. 
+
+## a) Crear clases
+
+- [Clase Curso](/src/Curso.kt)
+- [Clase Estudiante](/src/Estudiante.kt)
+
+## b) Crear relaciones
+
+## c) Crear main (para probar el sistema).
+
+- [Main](/src/Main.kt)
