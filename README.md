@@ -1,3 +1,5 @@
+![Diagrama UML](/UntitledDiagram.png)
+
 # 1. Interpreta el significado del diagrama de clases.
 
 ## a) Relación entre las clases. Significado, tipo, multiplicidad.
