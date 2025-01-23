@@ -70,6 +70,7 @@ El método `inscribirse()` consiste en tomar a un estudiante y añadirlo a un cu
 - [Clase Estudiante](/src/Estudiante.kt)
 
 ## b) Crear relaciones
+- [Carpeta src (todos los códigos)](/src)
 
 ## c) Crear main (para probar el sistema).
 
