@@ -1,2 +1,12 @@
-class Curso(private val nombre: String, private val codigo: String, private var estudiantes: MutableList<Estudiante>) {
+class Curso(private val nombre: String, private val codigo: String) {
+    private val estudiantes: MutableList<Estudiante> = mutableListOf()
+
+    fun agregarAlumno(estudiante: Estudiante): Boolean {
+        return estudiantes.add(estudiante)
+    }
+
+    fun mostrarEstudiantes() {
+        println("Estudiantes: $nombre")
+        estudiantes.forEach { println("- ${it.nombre} (DNI: ${it.dni})") }
+    }
 }
